@@ -14,3 +14,6 @@ O CRM permite a coleta e análise de informações valiosas sobre os consumidore
 * Seaborn
 * Matplotlib
 * Sklearn
+
+#Link do projeto
+https://colab.research.google.com/drive/1vobc8p_swPcnWUmEbDNR-EbsPXaupbQh#scrollTo=AOelAKEyvnBI
