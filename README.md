@@ -16,4 +16,9 @@ O CRM permite a coleta e análise de informações valiosas sobre os consumidore
 * Sklearn
 
 # Link do projeto
+
+Projeto:
 https://colab.research.google.com/drive/1vobc8p_swPcnWUmEbDNR-EbsPXaupbQh#scrollTo=AOelAKEyvnBI
+
+Dataset:
+https://www.kaggle.com/datasets/carrie1/ecommerce-data
