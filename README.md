@@ -11,7 +11,7 @@
 
 ## Introdução
  A SuperStore é uma rede de supermercados com várias unidades físicas 
-espalhadas por todo o país, com o objetivo de fornecer alimentos e 
+espalhadas por todo o mundo, com o objetivo de fornecer alimentos e 
 comercializar os mais diversos produtos para consumo.
  Recentemente, o time de dados desenvolveu uma análise de Cohort para 
 acompanhar a retenção dos clientes da rede e revelando números bons 
