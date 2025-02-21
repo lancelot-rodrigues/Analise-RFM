@@ -10,23 +10,17 @@
 ---
 
 ## Introdução
- A SuperStore é uma rede de supermercados com várias unidades físicas 
-espalhadas por todo o mundo, com o objetivo de fornecer alimentos e 
-comercializar os mais diversos produtos para consumo.
- Recentemente, o time de dados desenvolveu uma análise de Cohort para 
-acompanhar a retenção dos clientes da rede e revelando números bons 
-para alguns Cohorts e ruim para outros. Como essa informação, os gerentes resolveram fazer ações distintas para 
-grupos específicos de clientes, afim de aumentar a taxa de retenção da 
-empresa. Porém, ele não sabem como segmentar a base de clientes em 
-grupos e nem qual seria a necessidade para planejar a ação. 
-Esse desafio chegou até o time de dados que precisar segmentar a base de 
-clientes, criando grupo menores com necessidades específicas para uma 
-ação mais precisa do time de Marketing e Produtos.
- O seu próximo problema de negócio é criar uma 
-segmentação de clientes e explicar as área de negócio, como Marketing, 
-Vendas e Produto, a necessidade de cada grupo e quais ações poderiam 
-ser feitas para aumentar a retenção.
+A SuperStore é uma rede de supermercados com várias unidades físicas espalhadas por todo o mundo, com o objetivo de fornecer alimentos e comercializar os mais diversos produtos para consumo. Recentemente, o time de dados desenvolveu uma análise de Cohort para acompanhar a retenção dos clientes da rede, revelando números positivos para alguns grupos e preocupantes para outros. Com base nessas informações, os gerentes decidiram implementar ações direcionadas para grupos específicos de clientes, com o objetivo de aumentar a taxa de retenção da empresa. No entanto, eles enfrentam o desafio de como segmentar a base de clientes em grupos menores e identificar as necessidades de cada um para planejar ações eficazes. Esse desafio foi repassado ao time de dados, que agora precisa criar uma segmentação de clientes, explicar às áreas de negócio (como Marketing, Vendas e Produtos) as necessidades de cada grupo e sugerir ações específicas para melhorar a retenção.
 
+Paralelamente, a empresa também trabalha com um modelo de negócios online. Eles operam um varejo digital baseado no Reino Unido, que atua como uma loja virtual sem unidades físicas. Esse segmento da empresa é focado na venda de presentes exclusivos para todas as ocasiões, e muitos de seus clientes são atacadistas. O conjunto de dados transnacional utilizado pela empresa contém todas as transações realizadas entre 01/12/2010 e 09/12/2011, fornecendo insights valiosos sobre o comportamento de compra dos clientes.
+
+O próximo desafio de negócios é unir as informações desses dois modelos (físico e online) para criar uma segmentação de clientes mais abrangente. Isso permitirá que as áreas de Marketing, Vendas e Produtos entendam as necessidades específicas de cada grupo e planejem ações personalizadas. Por exemplo:
+
+Para clientes do varejo físico, ações como programas de fidelidade e promoções segmentadas podem ser eficazes.
+
+Para clientes online, especialmente os atacadistas, estratégias como descontos progressivos e pacotes personalizados podem aumentar a retenção.
+
+Ao integrar os dados e insights de ambos os modelos, a empresa poderá criar uma estratégia unificada e mais eficiente para melhorar a retenção de clientes em todos os segmentos.
 ## RFM
 
 A Análise RFM (Recency, Frequency, Monetary) é uma técnica usada para segmentar clientes com base em três critérios:
