@@ -29,13 +29,13 @@ Segmentar clientes com base em seu comportamento de compra para possibilitar cam
 
 ### Pedidos por País
 
-![](imagens/mapa_clientes.png)
+![](imagens/pedidos_por_pais.png)
 
 A maior parte das transações se concentram no Reino Unido, mostrando que, apesar da atuação internacional, a empresa ainda tem forte base local.
 
 ### Segmentação de Clientes
 
-![](imagens/segmentos_rfm.png)
+![](imagens/segmentacao_rfm_treemap.png)
 
 Agrupamentos claros de clientes com perfis distintos, como compradores recorrentes de alto valor e clientes inativos com baixo ticket médio.
 
@@ -48,11 +48,11 @@ Agrupamentos claros de clientes com perfis distintos, como compradores recorrent
 
 ## 📁 Links
 
-- 🔗 [Notebook completo no Google Colab](https://colab.research.google.com/drive/1vobc8p_swPcnWUmEbDNR-EbsPXaupbQh)
-- 🗃️ [Dataset no Kaggle (Online Retail)](https://www.kaggle.com/datasets/hellbuoy/online-retail-customer-segmentation)
-- 💻 [Projeto hospedado via GitHub Pages](https://seunome.github.io/portfolio)
+- 🔗 [Notebook completo no Google Colab](https://colab.research.google.com/drive/1iwcuTfdSvzv94xxf0UujZrY4XseSpxBN#scrollTo=tZFbK5kB-mpp)
+- 🗃️ [Dataset no Kaggle (Online Retail)](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
+- 💻 [Projeto hospedado via GitHub Pages](https://lancelot-rodrigues.github.io/portfolio_projetos/)
 
 ---
 
 📌 **Autor:** Lancelot  
-🔗 [LinkedIn](https://www.linkedin.com/in/seulinkedin) | [Portfólio](https://seunome.github.io/portfolio)
+🔗 [LinkedIn](https://www.linkedin.com/in/lancelot-rodrigues/) | [Portfólio](https://lancelot-rodrigues.github.io/portfolio_projetos/)
