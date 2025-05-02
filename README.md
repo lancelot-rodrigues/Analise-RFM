@@ -1,67 +1,58 @@
-# 🛍️ Segmentação de Clientes para E-commerce de Presentes – Projeto CRM
+# 📊 Segmentação de Clientes com RFM e Clustering
+
+Este projeto simula a atuação como analista de dados em uma empresa de varejo online baseada no Reino Unido. O objetivo é aplicar análise exploratória e segmentação de clientes usando a técnica de RFM (Recência, Frequência, Valor Monetário) aliada a algoritmos de clusterização, com foco em oferecer insights acionáveis para as áreas de Marketing, Vendas e Produto.
 
 ## 🎯 Objetivo
 
-Este projeto tem como objetivo realizar uma análise exploratória e uma segmentação de clientes para um e-commerce britânico especializado em presentes personalizados. A ideia é identificar grupos de clientes com comportamentos semelhantes a partir do histórico de transações entre 2010 e 2011, para apoiar decisões nas áreas de **Marketing, Vendas e Produtos**.
-
----
+Segmentar clientes com base em seu comportamento de compra para possibilitar campanhas de marketing personalizadas, aumento da fidelização e identificação de oportunidades de negócio.
 
 ## 🧰 Ferramentas Utilizadas
 
 - Python
-- Pandas, NumPy
-- Matplotlib, Seaborn, Plotly
-- Scikit-learn (para clusterização)
+- Pandas, Numpy
+- Seaborn, Matplotlib, Plotly
+- Scikit-Learn (K-Means)
+- Geopandas e Choropleth Maps
 - Google Colab
 
----
+## 🔍 Etapas do Projeto
 
-## 📊 Etapas do Projeto
+1. **Carregamento e inspeção dos dados**
+2. **Limpeza e pré-processamento**
+3. **Análise Exploratória de Dados (EDA)**
+4. **Criação das métricas RFM**
+5. **Aplicação do K-Means para clusterização**
+6. **Visualizações interativas e análise por país**
+7. **Conclusões com recomendações para o negócio**
 
-### 1. Coleta de Dados
-- Dataset transacional público (disponível no Kaggle).
-- Período analisado: 01/12/2010 a 09/12/2011.
+## 🌍 Visualização de Dados
 
-### 2. Limpeza e Pré-processamento
-- Remoção de dados nulos e registros inconsistentes.
-- Conversão de colunas de datas.
-- Exclusão de transações canceladas e valores negativos.
+### Pedidos por País
 
-### 3. Análise Exploratória
-- Identificação dos países com maior número de pedidos.
-- Visualização interativa de pedidos por país.
-- Análise do volume e valor das vendas.
+![](imagens/mapa_clientes.png)
 
-![Mapa de vendas por país](images/mapa_pedidos_pais.png)
+A maior parte das transações se concentram no Reino Unido, mostrando que, apesar da atuação internacional, a empresa ainda tem forte base local.
 
-### 4. Engenharia de Atributos – RFM
-- Criação das variáveis:
-  - **Recência**: dias desde a última compra.
-  - **Frequência**: número total de compras.
-  - **Valor Monetário**: total gasto pelo cliente.
-- Normalização das variáveis.
+### Segmentação de Clientes
 
-### 5. Segmentação com K-Means
-- Determinação do número ideal de clusters (método do cotovelo).
-- Aplicação do algoritmo K-Means.
-- Visualização dos segmentos de clientes.
+![](imagens/segmentos_rfm.png)
 
-![Gráfico de clusters](images/segmentacao_clusters.png)
+Agrupamentos claros de clientes com perfis distintos, como compradores recorrentes de alto valor e clientes inativos com baixo ticket médio.
 
----
+## ✅ Conclusões
 
-## 🧠 Insights de Negócio
+- A maioria das vendas vem do Reino Unido, seguido por Alemanha e França.
+- O agrupamento K-Means conseguiu identificar perfis relevantes para estratégias específicas.
+- A análise RFM é uma abordagem eficaz e escalável para segmentação de clientes.
+- Com esses insights, é possível criar campanhas focadas, melhorar a experiência do cliente e aumentar o lifetime value.
 
-- **Foco geográfico**: O Reino Unido representa a maioria das vendas, apesar do modelo de negócio ser online. O marketing internacional pode ser mais bem segmentado.
-- **Agrupamento estratégico**: A análise de clusters permite ações direcionadas para cada grupo: fidelização de clientes rentáveis, reativação de clientes inativos e aumento da frequência de clientes ocasionais.
-- **Apoio visual**: A visualização interativa dos clusters e do mapa facilita a comunicação entre as equipes técnicas e de negócios.
+## 📁 Links
+
+- 🔗 [Notebook completo no Google Colab](https://colab.research.google.com/drive/1vobc8p_swPcnWUmEbDNR-EbsPXaupbQh)
+- 🗃️ [Dataset no Kaggle (Online Retail)](https://www.kaggle.com/datasets/hellbuoy/online-retail-customer-segmentation)
+- 💻 [Projeto hospedado via GitHub Pages](https://seunome.github.io/portfolio)
 
 ---
 
-## 🔗 Links
-
-- 📄 [Notebook no Google Colab](https://colab.research.google.com/drive/1vobc8p_swPcnWUmEbDNR-EbsPXaupbQh#scrollTo=AOelAKEyvnBI)
-- 📂 [Dataset no Kaggle (Online Retail)](https://www.kaggle.com/datasets)
-- 🖼️ Gráficos e visualizações disponíveis na pasta `/images`
-
----
+📌 **Autor:** Lancelot  
+🔗 [LinkedIn](https://www.linkedin.com/in/seulinkedin) | [Portfólio](https://seunome.github.io/portfolio)
