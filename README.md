@@ -35,7 +35,8 @@ A maior parte das transações se concentram no Reino Unido, mostrando que, apes
 
 ### Segmentação de Clientes
 
-![](imagens/segmentacao_rfm_treemap.png)
+![segmentacao_rfm_treemap](https://github.com/user-attachments/assets/48b2dea1-1982-4208-acbe-b54c08f981ab)
+
 
 Agrupamentos claros de clientes com perfis distintos, como compradores recorrentes de alto valor e clientes inativos com baixo ticket médio.
 
